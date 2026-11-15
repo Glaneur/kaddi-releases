@@ -55,5 +55,21 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+
+<div id="kaddi-install" style="display:none;position:fixed;left:12px;right:12px;bottom:12px;z-index:99999;background:#14532D;color:#fff;border-radius:14px;padding:12px 14px;font:15px system-ui,sans-serif;box-shadow:0 4px 18px rgba(0,0,0,.35);align-items:center;gap:10px">
+  <span style="flex:1">Installer Kaddi sur votre téléphone</span>
+  <button id="kaddi-install-btn" style="background:#F5C542;color:#14532D;border:0;border-radius:10px;padding:9px 14px;font-weight:700">Installer</button>
+  <button id="kaddi-install-x" aria-label="Fermer" style="background:none;border:0;color:#fff;font-size:20px">×</button>
+</div>
+<script>
+(function(){var e,b=document.getElementById('kaddi-install');
+window.addEventListener('beforeinstallprompt',function(ev){ev.preventDefault();e=ev;
+ try{if(localStorage.getItem('kaddi-install-x'))return;}catch(_){}
+ b.style.display='flex';});
+document.addEventListener('click',function(ev){var t=ev.target;
+ if(t.id==='kaddi-install-btn'&&e){e.prompt();e.userChoice.then(function(){b.style.display='none';});}
+ if(t.id==='kaddi-install-x'){b.style.display='none';try{localStorage.setItem('kaddi-install-x','1');}catch(_){}}});
+window.addEventListener('appinstalled',function(){b.style.display='none';});})();
+</script>
 </body>
 </html>
