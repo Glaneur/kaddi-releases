@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -46,6 +48,17 @@
   <meta name="theme-color" content="#14532D">
 </head>
 <body>
+<div id="kaddi-splash" style="position:fixed;inset:0;z-index:100000;background:#14532D;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:system-ui,sans-serif">
+  <div style="font-size:44px;font-weight:800;letter-spacing:-.02em">Kaddi</div>
+  <div style="margin-top:8px;opacity:.85">Faites vos courses malin, et local</div>
+  <div style="margin-top:22px;width:34px;height:34px;border:4px solid rgba(255,255,255,.3);border-top-color:#F5C542;border-radius:50%;animation:ks 0.9s linear infinite"></div>
+</div>
+<style>@keyframes ks{to{transform:rotate(360deg)}}</style>
+<script>
+window.addEventListener('flutter-first-frame',function(){var e=document.getElementById('kaddi-splash');if(e){e.style.transition='opacity .25s';e.style.opacity=0;setTimeout(function(){e.remove()},300);}});
+setTimeout(function(){var e=document.getElementById('kaddi-splash');if(e)e.remove();},20000);
+</script>
+
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
