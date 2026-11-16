@@ -118154,7 +118154,7 @@ s=m.e
 r=s==null
 q=A.dt(B.RW,r?m.c:s,n,n)
 p=A.n("Votre produit ici ?",n,n,n,n,A.aj(n,n,r?m.c:s,n,n,n,n,n,n,n,n,16,n,n,B.ap,n,n,!0,n,n,n,n,n,n,n,n),n,n,n)
-o=A.n("Producteurs et commer\xe7ants : mettez un produit ou une offre en avant sur la page d'accueil. Option payante, toujours signal\xe9e \xab Sponsoris\xe9 \xbb.",n,n,n,n,A.aj(n,n,r?m.c:s,n,n,n,n,n,n,n,n,12.5,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n)
+o=A.n("Producteurs et commer\xe7ants : mettez un produit ou une offre en avant sur la page d'accueil. Offert pendant le lancement, toujours signal\xe9 \xab Sponsoris\xe9 \xbb.",n,n,n,n,A.aj(n,n,r?m.c:s,n,n,n,n,n,n,n,n,12.5,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n)
 return A.cd(A.cb(A.eE(!1,n,!0,new A.Z(B.bH,A.aK(A.b([q,B.b8,p,B.aw,o,B.dA,A.n("Nous \xe9crire",n,n,n,n,A.aj(n,n,r?m.c:s,n,n,n,n,n,n,n,n,n,n,n,B.aT,n,n,!0,n,n,n,n,n,n,n,n),n,n,n)],t.p),B.a4,B.i,B.l,0,B.p),n),n,!0,n,n,n,n,n,n,n,n,n,n,n,this.c,n,n,n,n,n,n,n),n,l,n,n),n,250)}}
 A.a27.prototype={
 D(a){var s,r,q,p,o=null,n=A.u(a).ax,m=n.rx
