@@ -118339,7 +118339,7 @@ A.aJ_.prototype={
 $0(){},
 $S:0}
 A.aJ6.prototype={
-$0(){A.a_z("J'utilise Kaddi pour savoir o\xf9 faire mes courses moins cher et local. Ma liste m'a montr\xe9 "+A.bC(B.b.gY(this.a).d)+" d'\xe9cart, trajet compris. Sans frais et sans compte. Test : https://kaddi.fr")},
+$0(){A.a_z("J'utilise Kaddi pour savoir o\xf9 faire mes courses moins cher et local. Ma liste m'a montr\xe9 "+A.bC(B.b.gY(this.a).d)+" d'\xe9cart, trajet compris. C'est gratuit et sans compte. Test : https://kaddi.fr")},
 $S:0}
 A.aIU.prototype={
 $0(){var s=this.b,r=s.d
@@ -124859,7 +124859,7 @@ A.aCc.prototype={
 $1(a){return B.vF},
 $S:178}
 A.aCo.prototype={
-$0(){return A.a_z("Je teste Kaddi, l'appli pour faire ses courses moins cher et local, avec les producteurs pr\xe8s de chez soi. Lancement \xe0 Pont-Audemer. https://kaddi.fr")},
+$0(){return A.a_z("Je teste Kaddi, l'appli gratuite pour faire ses courses moins cher et local, avec les producteurs pr\xe8s de chez soi. Lancement \xe0 Pont-Audemer. https://kaddi.fr")},
 $S:0}
 A.aCz.prototype={
 $0(){var s=null
